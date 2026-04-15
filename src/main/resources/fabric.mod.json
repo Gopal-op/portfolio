@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "noanimg",
+  "version": "1.0.0",
+  "name": "NoAnimG",
+  "description": "Removes all animations.",
+  "authors": ["NoAnimG"],
+  "entrypoints": {
+    "client": ["NoAnimG.noanim.NoAnimMod"]
+  },
+  "mixins": ["noanimg.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.14.22",
+    "minecraft": "1.20.1",
+    "fabric-api": "*"
+  }
+}
